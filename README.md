@@ -45,8 +45,6 @@ s3-storage-optimization-project/
 ├── requirements.txt              # Python dependencies
 ├── s3_lifecycle_policy.py        # Script to configure S3 lifecycle policies for storage class transitions
 ├── s3_intelligent_tiering.py     # Script to configure S3 Intelligent-Tiering
-├── config/
-│   └── s3_config.py              # S3 configuration file (bucket names, regions, etc.)
 └── logs/
     └── lifecycle_logs.txt        # Log file for lifecycle policy and storage transitions
 ```
